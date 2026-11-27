@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adnan's Personal Website</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+header {
+  background: linear-gradient(135deg, #061b4f, #1769e0, #00a8cc);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50%;
+  background: white;
+  color: #1769e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 35px 20px;
+}
+.card {
+  background: white;
+  padding: 28px;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+}
+h2 { color: #1769e0; }
+footer {
+  background: #061b4f;
+  color: white;
+  text-align: center;
+  padding: 22px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">A</div>
+<h1>Welcome to Adnan's Website</h1>
+<p>My Personal Web Space</p>
+</header>
+<section>
+<div class="card">
+<h2>About Me</h2>
+<p>Hello! My name is Adnan. I am learning computer skills and web development.</p>
+</div>
+<div class="card">
+<h2>My Skills</h2>
+<p>HTML • CSS • Web Design • Computer Skills</p>
+</div>
+<div class="card">
+<h2>My Projects</h2>
+<p>School Website • Personal Website • HTML Projects</p>
+</div>
+<div class="card">
+<h2>My Goal</h2>
+<p>My goal is to improve my computer skills and create better websites.</p>
+</div>
+</section>
+<footer>
+<p>© 2026 Adnan's Website | Created by Adnan</p>
+</footer>
+</body>
+</html>
